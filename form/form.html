@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="submit" method="post">
+    <fieldset>
+        <h3>Personal Details</h3>
+        <label for="Name"> Name:</label>
+        <input type="text" id="Name" name=" Name">
+        <br>
+        <label for=" Password "> Password: </label>
+        <input type="text" name=" Password" id=" password">
+        <br>
+        <label for="E-mail id">E-mail id:</label>
+        <input type="text" name="email" id=" email">
+        <br>
+        <label for="Gender"> Gender</label>
+        <input type="checkbox" name=" 1" value="checkbox" id=" 1"> Male 
+        <input type="checkbox" name=" 2" value="checkbox" id=" 2"> Female
+       <br>
+        <label for="Contact"> Contact#:</label>
+        <input type="text" name=" contact" id="contact">
+       
+    <br>
+    <h3>Educational Qualification</h3>
+    <Label for=" Degree ">  Degree: </Label>
+    <Select name=" Degree" id=" Degree"> 
+    <option value=""> -- Select group-- </option>
+    <option value=""> B.COM</option>
+    <option value=""> B.A</option>
+    <option value=""> F.SC</option>
+    <option value="" >F.A</option>
+</Select>
+<br>
+<Label for=" Engrineering ">   Engrineering : </Label>
+<select name=" Engrineering " id=" Engrineering ">
+    <option value=""> -- Select group-- </option>
+    <option value=""> Maths</option>
+    <option value=""> Physical</option>
+    <option value=""> chemical</option>
+    <option value="" > civil</option>
+</select>
+<br>
+<label for=" Hobbies "> Hobbies:</label>
+<input type="checkbox" name=" " value="radio" id=" "> Playing chess
+<input type="checkbox" name=" " value="radio" id=" "> Reading books
+<h3>Address</h3>
+<textarea name="" id="" cols="10" rows="10"></textarea>
+    <br>
+<Label for=" Attached Resume" > Attached Resume: </Label>
+<input type="file" name=" file" id=" file">
+<br>
+<input type="submit" value="submit"> 
+    </fieldset>
+</form>

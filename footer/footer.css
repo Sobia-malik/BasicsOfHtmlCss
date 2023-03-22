@@ -1,0 +1,56 @@
+main{
+ 
+    margin:0 10% ;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+img11{
+    background-color: hsl(0, 0%, 90%);;
+  grid-row: 1/2;
+  
+  }
+  .img11:hover{
+      background-color: #272727;
+  }
+  
+  
+  .img2{
+      background-color:hsl(0, 0%, 90%);
+  
+  }
+  .img2:hover{
+      background-color: #272727;
+  }
+  .img3{
+      background-color:hsl(0, 0%, 90%);
+      grid-column: 1/-1;
+  }
+  .img3:hover{
+      background-color: #272727;
+  }
+  .footer{
+    width: 100%;
+    background-color: #272727;
+color: white;
+padding: 5px;
+
+
+    
+}
+.wholesection{
+    display: flex;
+}
+.img1{
+    display: flex;
+}
+.heading5{
+    margin-left : 20px;
+
+
+}
+
+.section2{
+   margin-block-start: 20px;
+}
