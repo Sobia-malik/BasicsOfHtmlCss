@@ -1,8 +1,54 @@
 form{
     background-color: greenyellow;
-    padding: 20px;
-    border: 1px solid red; 
-    border-radius: 1px;
+    width:500px;
+    border-radius: 10px;
     margin: 0 auto;
+    text-align: center;
  
 }
+h3{
+    color: brown;
+    font-size: 20px;
+}
+Label{
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+ width: 40%;
+    font-size: 17px;
+    border-radius: 5px;
+ border: 0.5px solid rgb(49, 46, 46);
+}
+select{
+font-size: 17px;
+}
+input[type="file"]{
+margin-top: 20px;
+   
+ }
+ input[type="submit"]{
+    background-color: orange;
+    padding: 10px ;
+    font-size: 16px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+
+ }
+ input[type="submit"]:hover{
+    background-color: gold;
+ }
+ textarea{
+    width: 80%;
+
+ }
+ 
+
+
+
+
